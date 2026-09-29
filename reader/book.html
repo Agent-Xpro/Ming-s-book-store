@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Story | Ink & Pages</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="../index.html" class="logo">
+        <span>✦</span> Ink & Pages
+    </a>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../books.html" class="active">Stories</a>
+        <a href="../about.html">About</a>
+    </nav>
+
+    <button id="themeBtn" class="theme-btn">☾</button>
+
+</header>
+
+
+<main class="book-page">
+
+    <!-- BACK -->
+    <a href="../books.html" class="back-link">
+        ← Back to Library
+    </a>
+
+
+    <!-- BOOK HERO -->
+    <section class="book-hero">
+
+        <div class="book-cover-large" id="bookCover">
+            <img
+                src="../assets/images/the-thing-that-watches-in-the-dark-corner.png"
+                alt="The Thing That Watches in the Dark Corner book cover"
+                class="book-cover-image"
+            >
+        </div>
+
+
+        <div class="book-details">
+
+            <span class="book-label" id="bookGenre">
+                HORROR
+            </span>
+
+            <h1 id="bookTitle">
+                The Thing That Watches in the Dark Corner
+            </h1>
+
+            <p class="book-author">
+                by <strong id="bookAuthor">Writer’s Collection</strong>
+            </p>
+
+            <p class="book-description" id="bookDescription">
+                Some stories end quietly. Others remain with us long
+                after the final page.
+            </p>
+
+
+            <div class="book-stats">
+
+                <div>
+                    <strong id="chapterCount">7</strong>
+                    <span>Chapters</span>
+                </div>
+
+                <div>
+                    <strong id="readingTime">20+</strong>
+                    <span>Minutes</span>
+                </div>
+
+                <div>
+                    <strong id="bookYear">7 Chapters</strong>
+                    <span>Collection</span>
+                </div>
+
+            </div>
+
+
+            <a
+                href="#chapters"
+                class="start-reading"
+                id="startReading"
+            >
+                Start Reading
+                <span>→</span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CHAPTERS -->
+    <section class="chapters-section" id="chapters">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="eyebrow">THE STORY</span>
+
+                <h2>
+                    Chapters
+                </h2>
+            </div>
+
+            <p id="chapterIntro">
+                Seven chapters. One story book. Begin at Chapter 1.
+            </p>
+
+        </div>
+
+
+        <div class="chapter-list" id="chapterList">
+            <!-- JavaScript will generate chapters here -->
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <p>
+        © 2026 Ink & Pages. All rights reserved.
+    </p>
+
+    <span>
+        Stories worth remembering.
+    </span>
+
+</footer>
+
+
+<script src="../js/main.js"></script>
+<script src="../js/reader.js"></script>
+
+</body>
+</html>

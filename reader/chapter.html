@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reading | Ink & Pages</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+
+<body>
+
+<!-- READING PROGRESS -->
+<div class="reading-progress">
+    <div id="progressBar"></div>
+</div>
+
+
+<header class="navbar">
+
+    <a href="../index.html" class="logo">
+        <span>✦</span> Ink & Pages
+    </a>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../books.html" class="active">Stories</a>
+        <a href="../about.html">About</a>
+    </nav>
+
+    <button id="themeBtn" class="theme-btn">
+        ☾
+    </button>
+
+</header>
+
+
+<main class="reader-page">
+
+    <!-- READER HEADER -->
+
+    <div class="reader-header">
+
+        <a
+            href="#"
+            id="backToBook"
+            class="back-link"
+        >
+            ← Back to Book
+        </a>
+
+        <div class="reader-meta">
+
+            <span id="readerBook">
+                THE THING THAT WATCHES IN THE DARK CORNER
+            </span>
+
+            <span class="meta-dot">•</span>
+
+            <span>
+                Chapter <span id="chapterNumber">01</span>
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- CHAPTER TITLE -->
+
+    <section class="chapter-heading">
+
+        <span class="eyebrow">
+            CHAPTER <span id="headingNumber">01</span>
+        </span>
+
+        <h1 id="chapterTitle">
+            The Letter
+        </h1>
+
+        <div class="chapter-info">
+
+            <span id="readingTime">
+                5 min read
+            </span>
+
+            <span>·</span>
+
+            <span id="bookAuthor">
+                Ink & Pages
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- STORY -->
+
+    <article
+        class="story"
+        id="storyContent"
+    >
+
+        <!-- JavaScript inserts the story here -->
+
+    </article>
+
+
+    <!-- CHAPTER NAVIGATION -->
+
+    <section class="chapter-navigation">
+
+        <a
+            href="#"
+            id="previousChapter"
+            class="chapter-nav previous"
+        >
+            <span class="nav-label">
+                ← Previous
+            </span>
+
+            <strong id="previousTitle">
+                Previous Chapter
+            </strong>
+        </a>
+
+
+        <a
+            href="#"
+            id="chapterListLink"
+            class="chapter-list-button"
+        >
+            ☰
+            <span>Chapters</span>
+        </a>
+
+
+        <a
+            href="#"
+            id="nextChapter"
+            class="chapter-nav next"
+        >
+            <span class="nav-label">
+                Next →
+            </span>
+
+            <strong id="nextTitle">
+                Next Chapter
+            </strong>
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <p>
+        © 2026 Ink & Pages. All rights reserved.
+    </p>
+
+    <span>
+        Stories worth remembering.
+    </span>
+
+</footer>
+
+
+<script src="../js/main.js"></script>
+<script src="../js/reader.js"></script>
+
+</body>
+</html>
